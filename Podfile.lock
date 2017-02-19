@@ -1,0 +1,55 @@
+PODS:
+  - Alamofire (4.3.0)
+  - AlamofireObjectMapper (4.0.2):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 2.0)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
+  - GooglePlaces (2.1.1):
+    - GoogleMaps/Base (= 2.1.1)
+  - LFHeatMap (1.0.2)
+  - ObjectMapper (2.2.3)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - AlamofireObjectMapper (~> 4.0)
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - GoogleMaps
+  - GooglePlaces
+  - LFHeatMap
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: dcf98f9bf3a632a7f40679b7da46f09681e48526
+    :git: https://github.com/ViccAlexander/Chameleon.git
+  SVProgressHUD:
+    :commit: 803bc1e473e2861f75abf06174d9c937de7a0fe0
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  AlamofireObjectMapper: 94923a4320bbe52c1d0d462093277a9d6a755a78
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  GooglePlaces: 35636d86e5020cba3856eb988c09a5491de0a65a
+  LFHeatMap: 433197b20e4d57a9502bc2a2a21300fa851ff3c6
+  ObjectMapper: d3b3de11267f5d971f390eb8d63dd509116a4329
+  SVProgressHUD: d65371a8e4482380deddb9fe60e14e59ddb30eb3
+
+PODFILE CHECKSUM: b3e36bf6ac2f56ca326035c4bcaa52ee7fb0ac19
+
+COCOAPODS: 1.1.1
